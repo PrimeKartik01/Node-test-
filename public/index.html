@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Employee CRUD</title>
+    <style>
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="employeeForm">
+
+        <input type="text" id="name">
+        <small class="error" id="nameError"></small>
+
+        <input type="email" id="email">
+        <small class="error" id="emailError"></small>
+
+        <input type="number" id="salary">
+        <small class="error" id="salaryError"></small>
+
+        <input type="text" id="department">
+        <small class="error" id="departmentError"></small>
+        <button>
+
+            Save
+
+        </button>
+
+    </form>
+
+    <a href="employees.html">View Employees</a>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
